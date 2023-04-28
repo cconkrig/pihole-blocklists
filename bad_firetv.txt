@@ -2,21 +2,20 @@
 # URL for PiHole Adlist: https://raw.githubusercontent.com/cconkrig/pihole-blocklists/main/bad_firetv.txt
 # 
 # ===================================================================================================
-# Do not apply this list to your ENTIRE network, use a device group to limit to your Fire TV devices.
+# DO NOT apply this list to your ENTIRE network, use a device group to limit to your Fire TV devices.
 # ===================================================================================================
-# This hosts file is a collection of real-world monitored
-# addresses that my firetv has reached out to.
-# There is no reason for your firetv to speak with the domains
-# on this list in most cases.
-# Should any cause an issue, just whitelist them.
-# I take no responsibility for mis-use of this list or any issues
-# that may arrise by using this list.
-# It is provided as educational material.
 #
-# Date: 27 April 2023
+# This hosts file is a collection of real-world monitored addresses that my firetv has reached out to.
+# There is no reason for your firetv to speak with the domains on this list in most cases. Should any 
+# cause an issue, just whitelist them. I take no responsibility for mis-use of this list or any issues
+# that may arrise by using this list. It is provided as educational material.
+#
+# Date: 28 April 2023
 
 
 # Amazon
+0.0.0.0 dna.amazon.com
+0.0.0.0 atv-ext.amazon.com
 0.0.0.0 msh.amazon.com
 0.0.0.0 devicemessaging.us-east-1.amazon.com
 0.0.0.0 arcus-uswest.amazon.com
@@ -240,6 +239,8 @@
 
 
 # Application Metrics/Tracking/Misc
+0.0.0.0 47e224be59415ec068b94bca857581bd7dde7fb6.cws.conviva.com
+0.0.0.0 insights-collector.newrelic.com
 0.0.0.0 mobile-collector.newrelic.com
 0.0.0.0 lumtest.com
 0.0.0.0 www.lumtest.com
