@@ -1,17 +1,14 @@
 # Title: cconkrig/pihole-blocklists/bad_firetv.txt
+# URL for PiHole Adlist: https://raw.githubusercontent.com/cconkrig/pihole-blocklists/main/bad_firetv.txt
 # 
-# This hosts file is a collection of real-world monitored
-# addresses that my firetv has reached out to.
-#
-# There is no reason for your firetv to speak with the domains
-# on this list in most cases.
-#
-# Should any cause an issue, just whitelist them.
-#
 # ===================================================================================================
 # Do not apply this list to your ENTIRE network, use a device group to limit to your Fire TV devices.
 # ===================================================================================================
-#
+# This hosts file is a collection of real-world monitored
+# addresses that my firetv has reached out to.
+# There is no reason for your firetv to speak with the domains
+# on this list in most cases.
+# Should any cause an issue, just whitelist them.
 # I take no responsibility for mis-use of this list or any issues
 # that may arrise by using this list.
 # It is provided as educational material.
