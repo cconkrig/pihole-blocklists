@@ -1,0 +1,277 @@
+# Title: cconkrig/pihole-blocklists/bad_firetv.txt
+# 
+# This hosts file is a collection of real-world monitored
+# addresses that my firetv has reached out to.
+#
+# There is no reason for your firetv to speak with the domains
+# on this list in most cases.
+#
+# Should any cause an issue, just whitelist them.
+#
+# I take no responsibility for mis-use of this list or any issues
+# that may arrise by using this list.
+# It is provided as educational material.
+#
+# Date: 27 April 2023
+
+
+# Amazon
+0.0.0.0 msh.amazon.com
+0.0.0.0 devicemessaging.us-east-1.amazon.com
+0.0.0.0 arcus-uswest.amazon.com
+0.0.0.0 mas-sdk.amazon.com
+0.0.0.0 device-metrics-us.amazon.com
+0.0.0.0 unagi-na.amazon.com
+0.0.0.0 aviary.amazon.com
+0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 mads.amazon.com
+0.0.0.0 notify.firetv.bugsnag.appstore.a2z.com
+0.0.0.0 amazon.fr
+
+
+# EBay
+0.0.0.0 www.ebay.com
+0.0.0.0 ebay.com
+0.0.0.0 edgetrksvc.ebay.com
+0.0.0.0 secureir.ebaystatic.com
+0.0.0.0 devicebind.ebay.com
+0.0.0.0 ir.ebaystatic.com
+0.0.0.0 vi.vipr.ebaydesc.com
+
+
+# Ticketing Sites
+0.0.0.0 www.ticketmaster.com
+0.0.0.0 ticketmaster.com
+0.0.0.0 epsf.ticketmaster.com
+0.0.0.0 ticketmaster.ca
+0.0.0.0 www.ticketmaster.ca
+0.0.0.0 mlbat.tickets.com
+0.0.0.0 mlb.tickets.com
+0.0.0.0 mpv.tickets.com
+0.0.0.0 tickets.com
+0.0.0.0 www.tickets.com
+0.0.0.0 etix.com
+0.0.0.0 www.etix.com
+
+
+# Social Media
+0.0.0.0 www.facebook.com
+0.0.0.0 facebook.com
+0.0.0.0 scontent-ord5-1.xx.fbcdn.net
+0.0.0.0 gateway.facebook.com
+0.0.0.0 edge-chat.facebook.com
+0.0.0.0 kaios-d.facebook.com
+0.0.0.0 m.facebook.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 www.instagram.com
+0.0.0.0 instagram.com
+0.0.0.0 bd.linkedin.com
+0.0.0.0 pl.linkedin.com
+0.0.0.0 www.linkedin.com
+0.0.0.0 linkedin.com
+0.0.0.0 twitter.com
+0.0.0.0 www.twitter.com
+0.0.0.0 www.tiktok.com
+0.0.0.0 tiktok.com
+0.0.0.0 yelp.com
+0.0.0.0 www.yelp.com
+
+
+# Search
+0.0.0.0 www.google.com
+0.0.0.0 google.com
+0.0.0.0 google.co.uk
+0.0.0.0 www.google.co.uk
+0.0.0.0 google.com.br
+0.0.0.0 www.google.com.br
+0.0.0.0 google.bg
+0.0.0.0 www.google.bg
+0.0.0.0 www.google.fr
+0.0.0.0 google.fr
+0.0.0.0 google.es
+0.0.0.0 www.google.es
+0.0.0.0 www.google.ch
+0.0.0.0 google.ch
+0.0.0.0 google.ba
+0.0.0.0 www.google.ba
+0.0.0.0 www.google.com.ua
+0.0.0.0 google.com.ua
+0.0.0.0 google.com.pe
+0.0.0.0 www.google.com.pe
+0.0.0.0 bing.com
+0.0.0.0 www.bing.com
+0.0.0.0 powerofsearches.com
+0.0.0.0 www.powerofsearches.com
+0.0.0.0 www.yahoo.com
+0.0.0.0 yahoo.com
+0.0.0.0 login.yahoo.com
+0.0.0.0 thesearcharena.com
+0.0.0.0 searchfst.com
+0.0.0.0 searchexpert.online
+0.0.0.0 searchrexperts.com
+0.0.0.0 srch.adsearchexperts.org
+0.0.0.0 searchbays.com
+0.0.0.0 searches.today
+0.0.0.0 www.searches.today
+0.0.0.0 gateway-search.net
+0.0.0.0 allesearchers.com
+
+
+# Media
+0.0.0.0 esdk-ffl.spotify.com
+
+
+# Random Stuff - not sure why these are being hit
+0.0.0.0 ulta.com
+0.0.0.0 www.ulta.com
+0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 footlocker.com
+0.0.0.0 www.footlocker.com
+0.0.0.0 www.wayfair.com
+0.0.0.0 wayfair.com
+0.0.0.0 www.homedepot.com
+0.0.0.0 homedepot.com
+0.0.0.0 www.walmart.com
+0.0.0.0 walmart.com
+0.0.0.0 postoakatwoodway.com
+0.0.0.0 www.postoakatwoodway.com
+0.0.0.0 nike.com
+0.0.0.0 www.nike.com
+0.0.0.0 opentable.com
+0.0.0.0 www.opentable.com
+0.0.0.0 acehardware.com
+0.0.0.0 www.acehardware.com
+0.0.0.0 tokopedia.com
+0.0.0.0 www.tokopedia.com
+0.0.0.0 airbnb.com
+0.0.0.0 www.airbnb.com
+0.0.0.0 h-vpn.org
+0.0.0.0 www.h-vpn.org
+0.0.0.0 svd-cdn.com
+0.0.0.0 www.svd-cdn.com
+0.0.0.0 mattmazzeichryslerjeepdodgeram.com
+0.0.0.0 www.mattmazzeichryslerjeepdodgeram.com
+0.0.0.0 champssports.com
+0.0.0.0 www.champssports.com
+0.0.0.0 secure.agoda.com
+0.0.0.0 www.agoda.com
+0.0.0.0 agoda.com
+0.0.0.0 chanel.com
+0.0.0.0 www.chanel.com
+0.0.0.0 digikey.com
+0.0.0.0 www.digikey.com
+0.0.0.0 digikey.de
+0.0.0.0 www.digikey.de
+0.0.0.0 albertsons.com
+0.0.0.0 www.albertsons.com
+0.0.0.0 albertsons.okta.com
+0.0.0.0 albertsons.inq.com
+0.0.0.0 ssense.com
+0.0.0.0 www.ssense.com
+0.0.0.0 meijer.com
+0.0.0.0 www.meijer.com
+0.0.0.0 login.meijer.com
+0.0.0.0 spirit.com
+0.0.0.0 www.spirit.com
+0.0.0.0 wizzair.com
+0.0.0.0 www.wizzair.com
+0.0.0.0 be.wizzair.com
+0.0.0.0 goat.com
+0.0.0.0 www.goat.com
+0.0.0.0 businesscareeronline.com
+0.0.0.0 www.businesscareeronline.com
+0.0.0.0 vueling.com
+0.0.0.0 apimobile.vueling.com
+0.0.0.0 www.ib12.bradesco.com.br
+0.0.0.0 cabelas.com
+0.0.0.0 www.cabelas.com
+0.0.0.0 ryanair.com
+0.0.0.0 www.ryanair.com
+0.0.0.0 extra.com
+0.0.0.0 www.extra.com
+0.0.0.0 oldschool80a.runescape.com
+0.0.0.0 oldschool247.runescape.com
+0.0.0.0 api.cp.pilotflyingj.com
+0.0.0.0 zales.com
+0.0.0.0 www.zales.com
+0.0.0.0 video-weaver.mil02.hls.ttvnw.net
+0.0.0.0 video-weaver.cdg10.hls.ttvnw.net
+0.0.0.0 usher.ttvnw.net
+0.0.0.0 video-weaver.ams03.hls.ttvnw.net
+0.0.0.0 video-weaver.iah50.hls.ttvnw.net
+0.0.0.0 video-edge-170da2.pdx01.abs.hls.ttvnw.net
+0.0.0.0 binance.info
+0.0.0.0 www.binance.info
+0.0.0.0 instacart.com
+0.0.0.0 www.instacart.com
+0.0.0.0 onimgs.com
+0.0.0.0 domains.revved.com
+0.0.0.0 froxy.com
+0.0.0.0 paypal.com
+0.0.0.0 www.paypal.com
+0.0.0.0 api.paypal.com
+0.0.0.0 api-m.paypal.com
+0.0.0.0 flipkart.com
+0.0.0.0 www.flipkart.com
+0.0.0.0 airasia.com
+0.0.0.0 www.airasia.com
+0.0.0.0 eurowings.com
+0.0.0.0 www.eurowings.com
+0.0.0.0 nxcheck.com
+0.0.0.0 www.nxcheck.com
+0.0.0.0 linktrace.net
+0.0.0.0 www.linktrace.net
+0.0.0.0 direct.linktrace.net
+0.0.0.0 www.mywisely.com
+0.0.0.0 mywisely.com
+0.0.0.0 skaraudio.com
+0.0.0.0 www.skaraudio.com
+0.0.0.0 lowes.com
+0.0.0.0 www.lowes.com
+0.0.0.0 expedia.com
+0.0.0.0 www.expedia.com
+0.0.0.0 oms.expedia.com
+0.0.0.0 mediseason.com
+0.0.0.0 monica.mediseason.com
+0.0.0.0 api.stripe.com
+0.0.0.0 www.vegascamgirls.com
+0.0.0.0 live.m81.me
+
+
+# Application Metrics/Tracking/Misc
+0.0.0.0 mobile-collector.newrelic.com
+0.0.0.0 lumtest.com
+0.0.0.0 www.lumtest.com
+0.0.0.0 proxyjs.lum-sdk.io
+0.0.0.0 proxyjs.luminatinet.com
+0.0.0.0 http-test1.luminatinet.com
+0.0.0.0 perr.l-err.biz
+0.0.0.0 clientsdk.lum-sdk.io
+0.0.0.0 control.kochava.com
+0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 dpm.demdex.net
+0.0.0.0 analytics.plex.tv
+0.0.0.0 cdn-settings.appsflyersdk.com
+0.0.0.0 perr.l-agent.me
+0.0.0.0 ecstuning.com
+0.0.0.0 www.ecstuning.com
+0.0.0.0 luminati.io
+0.0.0.0 www.luminati.io
+0.0.0.0 app-measurement.com
+0.0.0.0 devisedata.com
+0.0.0.0 www.devisedata.com
+0.0.0.0 trafficturtle.com
+0.0.0.0 www.trafficturtle.com
+0.0.0.0 r.trafficturtle.com
+0.0.0.0 messenger.speakeasyai.com
+0.0.0.0 www.speakeasyai.com
+0.0.0.0 speakeasyai.com
+0.0.0.0 api.vmlogin.com
+0.0.0.0 www.vmlogin.com
+0.0.0.0 vmlogin.com
+0.0.0.0 s-microsoft.com
+0.0.0.0 i.s-microsoft.com
+0.0.0.0 clicksverify.com
+0.0.0.0 hcaptcha.com
+0.0.0.0 imgs.hcaptcha.com
+0.0.0.0 js.hcaptcha.com
