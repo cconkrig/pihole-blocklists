@@ -694,8 +694,6 @@
 0.0.0.0 pixel-us-east.rubiconproject.com
 0.0.0.0 pk.linkedin.com
 0.0.0.0 platform.linkedin.com
-0.0.0.0 play.clients.peacocktv.com
-0.0.0.0 play.clients.peacocktv.com.c.local
 0.0.0.0 play.elemental.tv
 0.0.0.0 play.google.com
 0.0.0.0 pl.linkedin.com
