@@ -10,7 +10,7 @@
 # cause an issue, just whitelist them. I take no responsibility for mis-use of this list or any issues
 # that may arrise by using this list. It is provided as educational material.
 #
-# Date: 2 December 2023
+# Date: 3 December 2023
 
 0.0.0.0 10486893.fls.doubleclick.net
 0.0.0.0 173bf110.akstat.io
@@ -237,7 +237,6 @@
 0.0.0.0 cdn-static.farfetch-contents.com
 0.0.0.0 ce.lijit.com
 0.0.0.0 cf.bstatic.com
-0.0.0.0 cfrt.stream.peacocktv.com
 0.0.0.0 challenges.cloudflare.com
 0.0.0.0 champssports.com
 0.0.0.0 chanel.com
